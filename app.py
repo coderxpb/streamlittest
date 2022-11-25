@@ -13,8 +13,8 @@ def user_data():
     n2 = st.number_input("Enter number 2: ")
 
 
-    data = {'number 1': n1,
-            'number 2': n2,
+    data = {'number1': n1,
+            'number2': n2,
             }
 
     return data
@@ -26,8 +26,8 @@ st.write(dt)
 
 
 
-numsum = dt['n1'] + dt['n2']
-st.subheader(d['n1'] + "+" + dt['n2'] +'='+ numsum)
-st.write(d['n1'] + "+" + dt['n2'] +'='+ numsum)
+numsum = dt['number1'] + dt['number2']
+st.subheader(dt['number1'] + "+" + dt['number2'] +'='+ numsum)
+st.write(dt['number1'] + "+" + dt['number2'] +'='+ numsum)
 
 
