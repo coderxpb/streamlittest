@@ -27,7 +27,7 @@ st.write(dt)
 
 
 numsum = dt['number1'] + dt['number2']
-st.subheader(dt['number1'] + "+" + dt['number2'] +'='+ numsum)
-st.write(dt['number1'] + "+" + dt['number2'] +'='+ numsum)
+st.subheader("Sum")
+st.write(numsum)
 
 
